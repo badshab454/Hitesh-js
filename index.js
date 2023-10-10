@@ -1,9 +1,5 @@
-const accountId = 3;
-let accountEmail = "badsha@gmail.com";
-var accountPassword = "12345";
-accountCity = "Dhaka";
+let name = "Badsha Hossain";
+let age = 18;
+let isLoggedIn = false;
 
-accountEmail = "badboy@gmail.com";
-
- console.log(accountEmail);
-
+console.log(typeof undefined);
