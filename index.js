@@ -1,9 +1,8 @@
-const user = {
-    username: "hitesh",
-    price: 999,
-    welcomeMessage: function() {
-        console.log(`${this.username}, welcome to website`);
-    }
+const isUserLoggedIn = true;
+const temperature = 41;
 
+if (temperature < 50) {
+    console.log("less than 50");
 }
-user.welcomeMessage()
+
+console.log("temperature");
