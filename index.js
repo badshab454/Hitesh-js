@@ -1,8 +1,5 @@
-const isUserLoggedIn = true;
-const temperature = 41;
+array = [1, 2, 3, 4, 5]
 
-if (temperature < 50) {
-    console.log("less than 50");
+for (let index = 3; index < array.length; index++) {
+    console.log(index);
 }
-
-console.log("temperature");
