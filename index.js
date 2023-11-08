@@ -1,5 +1,6 @@
-array = [1, 2, 3, 4, 5]
+var a = true;
 
-for (let index = 3; index < array.length; index++) {
-    console.log(index);
+while (a == true) {
+    console.log("A is good for print");
+    a++;
 }
