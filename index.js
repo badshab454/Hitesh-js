@@ -1,6 +1,5 @@
-var a = true;
+const coding = ["js", "ruby", "java", "python", "cpp"];
 
-while (a == true) {
-    console.log("A is good for print");
-    a++;
+coding.forEach(function (val)){
+    console.log(val);
 }
