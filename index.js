@@ -1,3 +1,6 @@
-var ages  = [10, 23, 9, 20]
-var adultAge = 18;
-ages >= adultAge;
+function addLanguage(langName){
+    const li = document.createElement('li');
+    li.innerHTML = `${langName}`
+    document.querySelector('.language').appendChild(li)
+}
+addLanguage("python")
