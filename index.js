@@ -4,3 +4,6 @@ function addLanguage(langName){
     document.querySelector('.language').appendChild(li)
 }
 addLanguage("python")
+addLanguage("java")
+
+const secondLang = document.querySelector("li:nth-child(2)")
